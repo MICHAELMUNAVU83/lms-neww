@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-
+puts "Seeding database..."
 admin = Admin.create(username: "admin", email: "kimutai01@gmail.com", role: "admin", password: "admin")
 
 teacher1 = Teacher.create(username: "karen", email: "karen@gmail.com", role: "teacher", password: "karen", gender: "Female", full_name: "Karen Kanana", address:"Juja", phone_no: "07234556666", image: "https://images.unsplash.com/photo-1669917172469-1d9dd1e99491?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8dG93SlpGc2twR2d8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60")
